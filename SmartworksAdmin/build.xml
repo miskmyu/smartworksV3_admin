@@ -70,5 +70,6 @@
 	      <fileset dir="${dist.home}" includes="**/*.war"/>
 	    </copy>
   	</target>
+	
   	
 </project>
