@@ -3,7 +3,6 @@
 	<description>Simple Test</description>
   
   	<property file="${basedir}/build.properties"/>
-  	<property name="catalina.home"	value="d:\KmWorkspace\Tomcat7-image"/>
 	<property name="app.name"      value="SmartworksAdmin"/>
 	<property name="app.path"       value="/${app.name}"/>
 	<property name="app.version"   value="0.1-dev"/>
