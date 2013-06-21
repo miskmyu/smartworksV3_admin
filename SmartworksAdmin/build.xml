@@ -2,6 +2,8 @@
 <project name="SmartworksAdmin" default="dist" basedir=".">
 	<description>Simple Test</description>
   
+  	<property name="catalina.home"	value="d:\KmWorkspace\Tomcat7-image"/>
+  
   	<property file="${basedir}/build.properties"/>
 	<property name="app.name"      value="SmartworksAdmin"/>
 	<property name="app.path"       value="/${app.name}"/>
