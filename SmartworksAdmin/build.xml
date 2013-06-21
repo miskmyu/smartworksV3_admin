@@ -14,13 +14,13 @@
 	<property name="web.home"     value="${basedir}/WebContent"/>  
  
   	<path id="compile.classpath">
-	    <!-- <pathelement location="${catalina.home}/common/classes"/> -->
+	    <!-- <pathelement location="${catalina.home}/common/classes"/> 
 	    <fileset dir="${catalina.home}/lib">
 	      <include name="*.jar"/>
 	    </fileset>
 	    <fileset dir="${web.home}/WEB-INF/lib">
 	      <include name="*.jar"/>
-	    </fileset>
+	    </fileset>-->
   	</path>
  
   	<target name="clean" description="Delete old build and dist directories">
